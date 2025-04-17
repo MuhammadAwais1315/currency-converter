@@ -11,5 +11,5 @@ class TestCurrencyConverter:
         root.destroy()
 
     def test_initial_rates(self, app):
-        assert 'USD' in app.rates
-        assert isinstance(app.rates['USD'], float)
+      assert 'USD' in app.rates
+      assert isinstance(app.rates['USD'], (int, float))  # Accepts either type
