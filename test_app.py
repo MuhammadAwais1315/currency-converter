@@ -2,6 +2,7 @@ import pytest
 from app import CurrencyConverter
 import tkinter as tk
 
+
 class TestCurrencyConverter:
     @pytest.fixture
     def app(self):
